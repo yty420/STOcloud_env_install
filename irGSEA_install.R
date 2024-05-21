@@ -11,7 +11,7 @@ cran.packages <- c("aplot", "BiocManager", "circlize", "cowplot","data.table",
 
 for (i in cran.packages) {
   if (!requireNamespace(i, quietly = TRUE)) {
-    install.packages(i, ask = F, update = F)
+    install.packages(i, ask = F, update =T)
   }
 }
 
@@ -24,7 +24,7 @@ bioconductor.packages <- c("AUCell", "BiocParallel", "ComplexHeatmap",
 
 for (i in bioconductor.packages) {
   if (!requireNamespace(i, quietly = TRUE)) {
-    BiocManager::install(i, ask = F, update = F)
+    BiocManager::install(i, ask = F, update =T)
   }
 }
 
