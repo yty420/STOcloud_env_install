@@ -5,7 +5,7 @@ cran.packages <- c("aplot", "BiocManager", "circlize", "cowplot","data.table",
                    "ggplot2", "ggplotify", "ggridges", "ggsci", "irlba",
                    "magrittr", "Matrix", "msigdbr", "pagoda2", "plyr", "pointr", 
                    "purrr", "RcppML", "readr", "reshape2", "reticulate", 
-                   "rlang", "RMTstat", "RobustRankAggreg", "roxygen2", "SeuratObject"
+                   "rlang", "RMTstat", "RobustRankAggreg", "roxygen2", "SeuratObject",
                    "Seurat", "stringr", "tibble", "tidyr", 
                    "tidyselect", "tidytree", "VAM")
 
